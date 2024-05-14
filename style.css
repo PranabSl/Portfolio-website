@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'platypi',sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background: black;
+    color: white;
+    scroll-behavior: smooth;
+
+}
+
+/* header section css  */
+
+.header{
+    position: fixed; /* for fixing the position of the content */
+    width: 100%;
+    
+    padding: 15px 22vh;  
+    /* background-color: white; */
+    display: flex; /* for straighting the content */
+    justify-content: space-between;
+    overflow: hidden;
+    
+   
+    
+}
+.logo{
+    font-size: 40px;
+    color: whitesmoke;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration:none; /* for removing underline */
+    font-weight:  800 ;
+   
+}
+.navbar a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 450;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+
+}
+.navbar a:hover{
+    color: black;
+    background-color: brown;
+    border-radius: 70%;
+    transition: .5s ; /* for speed of the cursur */
+    
+    
+}
+.navbar a.active{
+    background-color: brown;
+    color: black;
+    
+    border-radius: 70%;
+}
+
+
+/* Home section css  */
+
+.home{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    margin-left: 10%;
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    max-width: 500px;
+    color:white;
+    margin-top: 15%;
+}
+
+
+.content h2{
+    font-size: 43px;
+    font-weight: 750;
+    color: white;
+    
+    
+}
+.content h4{
+    font-size:30px;
+    font-weight: 800;
+    color:brown;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn-box{
+    display: flex;
+    justify-content: space-between;
+    width:52%;
+    height: 140px;
+    margin-top: 5%;
+    margin-right: 20px;
+ 
+    
+
+}
+.btn-box a{
+    width: 120px;
+    height:50px;
+    font-size:15px;
+    justify-content: space-between;
+    text-decoration: none;
+    border: 2px solid  burlywood; 
+    border-radius: 12px;
+    font-weight: 550;
+    color:white;
+    letter-spacing: 1px;
+    text-align: center;
+    transition: 0.5s;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+   
+    
+    
+    
+}
+.btn-box a:hover{
+    color: black;
+    background-color: brown;
+    cursor: pointer;
+    
+
+}
+.btn-box a.active{
+    background-color: brown;
+   
+}
+img{
+    border: 2px solid brown;
+    padding: 8px;
+    margin-left: 150px;
+    border-radius: 40%;
+    cursor: pointer;
+    height: 60%;
+    width: 55%;
+    
+    
+}  
+img:hover{
+    border-color: burlywood;
+}
+.home-sci{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom:30;
+    left:10%;
+    height: 40px;
+    width: 200px;
+   
+   
+}  
+.home-sci a{
+    display: inline-flex;
+    width:40px;
+    height:40px;
+    text-decoration: none;
+    border: 2px solid burlywood;
+    border-radius: 50%;
+    font-size: 22px;
+    color: brown;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+  
+    
+}
+.home-sci a:hover{
+    background-color: burlywood;
+    color: brown;
+    transition: 0.5s;
+}
+
+/* about section css  */
+
+.About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    margin-bottom: 15%;
+    padding-top: 6%;
+    margin-top: 7%;
+    
+  
+   
+}
+.heading{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+span{
+   color:brown;
+}
+.About h2{
+   position: absolute;
+   padding-bottom: 28%;
+   margin-left: 23%;
+}
+.About-img{
+ 
+    height: 90%;
+    margin-left: 39%;
+    margin-top: 12%;
+   
+
+
+}
+.About-img img{
+  display: flex;
+    width: 18vw;
+    height: 44vh;
+    padding-left: 8px;
+    border: 1px solid brown;
+    cursor: pointer;
+   
+   
+    
+}
+.About-img img:hover{
+ border-color: burlywood;
+}
+.about-content{
+    width: 100%;
+    height:70%;
+    padding-top: 8%;
+}
+.about-content h3{
+    display: flex;
+    position: relative;
+    margin-left:25%;
+    color: brown;
+    font-weight: 750;
+
+}
+.about-content p{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    width: 110%;
+  
+}
+
+
+
+
+
+
+
+
+/* projects section css  */
+
+.Projects{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding-top: 6%;
+
+    
+}
+.my-projects{
+    width:80%;
+}
+.my-projects h2{
+    margin-bottom: 2%;
+    width: 60%;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 50%;
+   
+}
+.my-projects h3{
+    font-size: 20px;
+    margin-left:35%;
+    display: flex;
+    height: 50%;
+    
+    color: brown;
+    margin-bottom: 7%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Projects p{
+    font-family: 'Times New Roman', Times, serif;
+    width: 90%;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    padding-left: 20%;
+    font-size: 17px;
+
+}
+.project-image{
+    display: inline-flex;
+    width: 100%;
+    min-height: auto;
+    margin: 20px;
+    cursor: pointer;
+
+   
+}
+.project-image img{
+    display: inline-flex; 
+    width: 44%;
+    height: 35%;
+    border-radius: 5px;
+    border: 1px solid burlywood;
+    margin: 5px;
+    padding: 7px;
+}
+.project-image img:hover{
+    background: rgb(202, 110, 110);
+    transition: 0.3s;
+    border: 2px solid white;
+}
+
+
+
+
+/* Skills section CSS */
+
+.Skills {
+    margin-bottom: 13%;
+    min-height: auto;
+    width: 90%;
+    margin-left: 50px;
+  
+    padding-top: 8%;
+}
+.Skills .heading{
+    margin-bottom: 50px;
+}
+.Skills .Skills-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.Skills-row .Skills-column {
+    flex: 20px;
+}
+.Skills-column .Skills-title {
+     margin: 8px;
+     
+}
+
+.Skills-box .Skills-content{
+    position: relative;
+    border: 3px solid burlywood;
+    border-radius: 10px;
+    padding: 6px 25px;
+    width: 105%
+}
+.Skills-box .Skills-content:hover{
+    border-color: brown;
+    background: rgb(197, 146, 146);
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.skills-content .progress{
+    padding: 10px ;
+}
+.skills-content .progress h5{
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+}
+.skills-content .progress h5 span{
+       color: white;
+}
+
+.skills-content .progress .bar{
+    height: 14px;
+    border-radius: 5px;
+    border: 2.5px solid brown;
+    margin: 4px;
+    cursor: pointer;
+}
+.skills-content .progress .bar span{
+    display: block;
+    background: brown;
+    border-radius: 1px;
+    height: 70%;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+.Skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span{
+    width:80%;
+}
+.Skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span{
+    width:60%;
+}
+.Skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span{
+    width:20%;
+}
+.Skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span{
+    width:50%;
+}.Skills-column:nth-child(1) .skills-content .progress:nth-child(5) .bar span{
+    width:60%;
+}
+.Skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span{
+    width:70%;
+}
+.Skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span{
+    width:70%;
+}
+.Skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span{
+    width:70%;
+}
+.Skills-column:nth-child(3) .skills-content .progress:nth-child(1) .bar span{
+    width:90%;
+}
+.Skills-column:nth-child(3) .skills-content .progress:nth-child(2) .bar span{
+    width:90%;
+}
+.Skills-column:nth-child(3) .skills-content .progress:nth-child(3) .bar span{
+    width:60%;
+}
+
+
+.Resume{
+    margin-bottom: 25%;
+    padding-top: 10%;
+}
+.Resume .heading{
+    margin-bottom: 5%;
+}
+
+.btn{
+  
+    text-decoration: none;
+    margin-left: 37%;
+    height: 9%;
+    font-size: 20px;
+    border: 2px solid rgb(167, 130, 130);
+    background: black;
+  
+    
+}
+.btn a{
+    display: inline-flex;
+    color:bisque;
+    text-decoration: none;
+}
+.btn:hover{
+    text-decoration: none;
+    border: 2px solid;
+    border-color: white;
+    background:brown;
+    transition: 0.2s;
+}
+
+/* contact me section */
+
+
+.contact-me{
+    margin-bottom: 15%;
+    padding-top: 6%;
+
+    
+}
+.contact-me .heading{
+    margin-bottom: 28px;
+    
+}
+.contact-me .contact{
+    
+    height: 30%;
+    margin-left: 35%;
+    padding: 2px 30px;
+    border: 2px solid brown;
+    border-radius: 8%;
+    width: 37%;
+    height: 50%;
+
+}
+.contact-me .contact h3{
+    font-weight: 350;
+}
+
+.contact-me .contact a{
+    font-size: 20px;
+    display: flex;
+   text-decoration: none;
+   letter-spacing: 1px;
+   font-family:'Times New Roman', Times, serif;
+   color: brown;
+   padding: 10px;
+   font-weight: 400;
+   
+}
+.contact-me .contact:hover{
+    transition: 0.3s;
+    border: 2px solid burlywood;
+    
+   
+
+}
+.social-icons{
+    display: flex ;
+    position: absolute;
+    height: 7vh;
+    width:30%;
+    margin-left: 70%;
+    padding: 5px 60px;
+    justify-content: center;
+   justify-content: space-evenly;
+  
+   
+    
+   
+  
+}
+.contact-me .social-icons a{
+    display: inline-flex;
+    text-decoration: none;
+    width: 40px;
+    height: 35px;
+    justify-content: space-between;
+    letter-spacing: 12px;
+    color: brown;
+    align-items: center;
+   justify-content: center;
+   font-size: 35px;
+  
+}
+.contact-me .social-icons a:hover{
+   color: blanchedalmond;
+    transition: 0.3s;
+
+}
+
+
+
+footer{
+    background-color: brown;
+   
+}
+.footer h3{
+    font-size: 25px;
+}
+.footer{
+    display: flex;
+    height: 200px;
+    padding: 23px 100px;
+    justify-content: space-between;
+    cursor: pointer;
+   
+}
+.footer ul{
+    list-style-type: none;
+    font-size: 15;
+    font-weight: 240;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer-text{
+    
+
+    margin-left: 45%;
+  
+}
+
+.icon{
+    display: inline-flex;
+    margin-left: 95%;
+ 
+    align-items: center;
+    justify-content: center;
+}
+.icon a{
+    display: inline-flex;
+    text-decoration: none;
+    height: 30px;
+    width:30px;
+    margin-bottom:15px;
+    border: 2px solid white;
+    background: burlywood;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 20%;
+    color:brown;
+
+}
+.icon a:hover{
+    background-color: black;
+    color: whitesmoke;
+    transition: 0.3s;
+}
+@media(max-width: 700px){
+    .header{
+        flex-direction: column;
+    }
+}
+
